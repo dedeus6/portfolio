@@ -310,6 +310,11 @@ section { position: relative; padding: 96px 0; }
 .btn-primary:hover { filter: brightness(1.1); transform: translateY(-1px); box-shadow: 0 8px 24px var(--accent-glow); }
 .btn-ghost { background: var(--bg-elev); border-color: var(--border); color: var(--text); }
 .btn-ghost:hover { background: var(--bg-elev-2); border-color: var(--border-strong); }
+.btn-disabled { opacity: 0.5; cursor: not-allowed; pointer-events: none; }
+.badge-soon {
+  font-size: 10px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase;
+  background: var(--accent); color: #0a0a0b; border-radius: 4px; padding: 2px 5px; line-height: 1;
+}
 
 /* Hero grid */
 .hero-grid {

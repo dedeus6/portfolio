@@ -42,12 +42,13 @@ export default async function Hero() {
                   <path d="M5 12h14M13 5l7 7-7 7" />
                 </svg>
               </a>
-              <a href="/filipe-deus-cv.pdf" className="btn btn-ghost" download>
+              <span className="btn btn-ghost btn-disabled" title="Em breve" aria-disabled="true">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                   <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" />
                 </svg>
                 {t('ctaSecondary')}
-              </a>
+                <span className="badge-soon">{t('ctaSecondarySoon')}</span>
+              </span>
             </div>
           </div>
 

@@ -10,7 +10,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 
-[🌐 Ver online](#) · [📄 CV](public/filipe-deus-cv.pdf)
+[🌐 Ver online](#)
 
 </div>
 
@@ -94,8 +94,6 @@ portfolio/
 │   └── en.json               # Traduções em inglês
 └── public/
     ├── images/               # Foto de perfil
-    ├── filipe-deus-cv.pdf    # CV para download
-    └── og.png                # Open Graph image
 ```
 
 ---
