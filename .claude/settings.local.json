@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($content = \\(Invoke-WebRequest -Uri \"http://localhost:3001\" -UseBasicParsing\\).Content; @\\('site-nav','hero','about','experience','skills','cases','education','contact','pix-pulse','cursor-glow','Person'\\) | ForEach-Object { \"$_ -> $\\($content.Contains\\($_\\)\\)\" })",
+      "PowerShell(Get-ChildItem \"c:\\\\projects\\\\portfolio\" -Force | Where-Object { $_.Name -ne \"node_modules\" } | Select-Object Name, PSIsContainer)",
+      "PowerShell(Get-ChildItem -Path \"c:\\\\projects\\\\portfolio\" -Force | Where-Object { $_.Name -ne \"node_modules\" -and $_.Name -ne \".next\" -and $_.Name -ne \".claude\" } | Select-Object Name, PSIsContainer | Format-Table -AutoSize)",
+      "Bash(Remove-Item -Recurse -Force \"c:\\\\projects\\\\portfolio\\\\design_handoff_portfolio\")"
+    ]
+  }
+}
