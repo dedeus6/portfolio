@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import ThemeToggle from '@/components/theme-toggle';
 import LocaleSwitcher from '@/components/locale-switcher';
+import MobileMenu from '@/components/mobile-menu';
 
 export default async function Nav() {
   const t = await getTranslations('Nav');
@@ -30,6 +31,7 @@ export default async function Nav() {
         <div className="nav-end">
           <LocaleSwitcher />
           <ThemeToggle />
+          <MobileMenu />
         </div>
       </div>
     </nav>
